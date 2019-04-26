@@ -66,6 +66,11 @@ p {
     line-height: 1.4;
 }
 
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
 .nav-bar {
     display: flex;
     justify-content: flex-start;
@@ -81,23 +86,19 @@ p {
 
 .nav-bar ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: flex-end;
     width: 100%;
 }
 
 .nav-bar ul li a{
+    font-size: 14px;
     text-decoration: none;
     color: black;
 }
 
 .jumbo {
     margin-bottom: 20px;
-}
-
-.container {
-    width: 800px;
-    margin: 0 auto;
 }
 
 .top-content {
